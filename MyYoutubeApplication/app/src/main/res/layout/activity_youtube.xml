@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".YoutubeActivity">
+
+    <com.google.android.youtube.player.YouTubePlayerView
+        android:id="@+id/player"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:orientation="horizontal">
+
+    <ImageButton
+        android:id="@+id/image_btn"
+        android:layout_width="95dp"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/imagebutton"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/txtChannel"
+        android:textStyle="bold"
+        android:layout_width="327dp"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="match_parent"
+        android:layout_height="54dp" />
+
+    <TextView
+        android:id="@+id/txtDescription"
+        android:layout_width="match_parent"
+        android:layout_height="300dp" />
+
+</LinearLayout>

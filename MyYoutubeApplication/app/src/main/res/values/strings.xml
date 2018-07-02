@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MyYoutubeApplication</string>
+    <string name="image">Image</string>
+    <string name="imagebutton">ImageButton</string>
+    <string name="latest_updates">Latest Updates</string>
+    <string name="close">Close</string>
+    <string name="imageview">ImageView</string>
+</resources>
